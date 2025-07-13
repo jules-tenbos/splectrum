@@ -19,6 +19,7 @@ outbox/             # Outgoing items for other repos
 2. **Self-Contained Events**: Each item includes all context, actions, and quality gates
 3. **Executable Specifications**: Items are ready for AI/automation consumption
 4. **Event-Driven**: Items trigger appropriate responses in target repositories
+5. **Single Concern Repos**: Enable natural serialization of work
 
 ## Naming Convention
 
