@@ -1,0 +1,198 @@
+{
+  "7": {
+    "createdAt": "2025-07-14T18:07:32Z",
+    "labels": [
+      {
+        "id": "LA_kwDOPLs-eM8AAAACFQq0LA",
+        "name": "cross-repository",
+        "description": "Tasks that involve cross-repository coordination",
+        "color": "0366d6"
+      },
+      {
+        "id": "LA_kwDOPLs-eM8AAAACFQq0xw",
+        "name": "inbox-task",
+        "description": "Tasks created from inbox processing",
+        "color": "7057ff"
+      }
+    ],
+    "milestone": {
+      "number": 1,
+      "title": "v0.1.0: Initial Documentation Setup",
+      "description": "Set up initial documentation framework and organization mapping for the SPlectrum ecosystem. This milestone establishes the foundational documentation structure needed for project navigation and understanding across all organizations (SPlectrum, InfoMetish, Sesameh, Carambah, bare-for-pear).",
+      "dueOn": null
+    },
+    "number": 7,
+    "state": "OPEN",
+    "title": "Create initial documentation for bare-for-pear organization",
+    "updatedAt": "2025-07-14T18:07:32Z",
+    "cached_at": "2025-07-14T18:08:46.970915Z"
+  },
+  "6": {
+    "createdAt": "2025-07-14T18:07:20Z",
+    "labels": [
+      {
+        "id": "LA_kwDOPLs-eM8AAAACFQq0LA",
+        "name": "cross-repository",
+        "description": "Tasks that involve cross-repository coordination",
+        "color": "0366d6"
+      },
+      {
+        "id": "LA_kwDOPLs-eM8AAAACFQq0xw",
+        "name": "inbox-task",
+        "description": "Tasks created from inbox processing",
+        "color": "7057ff"
+      }
+    ],
+    "milestone": {
+      "number": 1,
+      "title": "v0.1.0: Initial Documentation Setup",
+      "description": "Set up initial documentation framework and organization mapping for the SPlectrum ecosystem. This milestone establishes the foundational documentation structure needed for project navigation and understanding across all organizations (SPlectrum, InfoMetish, Sesameh, Carambah, bare-for-pear).",
+      "dueOn": null
+    },
+    "number": 6,
+    "state": "OPEN",
+    "title": "Create initial documentation for Carambah organization",
+    "updatedAt": "2025-07-14T18:07:20Z",
+    "cached_at": "2025-07-14T18:08:46.971156Z"
+  },
+  "5": {
+    "createdAt": "2025-07-14T18:07:18Z",
+    "labels": [
+      {
+        "id": "LA_kwDOPLs-eM8AAAACFQq0LA",
+        "name": "cross-repository",
+        "description": "Tasks that involve cross-repository coordination",
+        "color": "0366d6"
+      },
+      {
+        "id": "LA_kwDOPLs-eM8AAAACFQq0xw",
+        "name": "inbox-task",
+        "description": "Tasks created from inbox processing",
+        "color": "7057ff"
+      }
+    ],
+    "milestone": {
+      "number": 1,
+      "title": "v0.1.0: Initial Documentation Setup",
+      "description": "Set up initial documentation framework and organization mapping for the SPlectrum ecosystem. This milestone establishes the foundational documentation structure needed for project navigation and understanding across all organizations (SPlectrum, InfoMetish, Sesameh, Carambah, bare-for-pear).",
+      "dueOn": null
+    },
+    "number": 5,
+    "state": "OPEN",
+    "title": "Create initial documentation for InfoMetish organization",
+    "updatedAt": "2025-07-14T18:07:18Z",
+    "cached_at": "2025-07-14T18:08:46.971163Z"
+  },
+  "4": {
+    "createdAt": "2025-07-14T18:07:16Z",
+    "labels": [
+      {
+        "id": "LA_kwDOPLs-eM8AAAACFQq0LA",
+        "name": "cross-repository",
+        "description": "Tasks that involve cross-repository coordination",
+        "color": "0366d6"
+      },
+      {
+        "id": "LA_kwDOPLs-eM8AAAACFQq0xw",
+        "name": "inbox-task",
+        "description": "Tasks created from inbox processing",
+        "color": "7057ff"
+      }
+    ],
+    "milestone": {
+      "number": 1,
+      "title": "v0.1.0: Initial Documentation Setup",
+      "description": "Set up initial documentation framework and organization mapping for the SPlectrum ecosystem. This milestone establishes the foundational documentation structure needed for project navigation and understanding across all organizations (SPlectrum, InfoMetish, Sesameh, Carambah, bare-for-pear).",
+      "dueOn": null
+    },
+    "number": 4,
+    "state": "OPEN",
+    "title": "Create initial documentation for SPlectrum organization",
+    "updatedAt": "2025-07-14T18:07:16Z",
+    "cached_at": "2025-07-14T18:08:46.971167Z"
+  },
+  "3": {
+    "createdAt": "2025-07-14T18:07:14Z",
+    "labels": [
+      {
+        "id": "LA_kwDOPLs-eM8AAAACFQq0LA",
+        "name": "cross-repository",
+        "description": "Tasks that involve cross-repository coordination",
+        "color": "0366d6"
+      },
+      {
+        "id": "LA_kwDOPLs-eM8AAAACFQq0xw",
+        "name": "inbox-task",
+        "description": "Tasks created from inbox processing",
+        "color": "7057ff"
+      }
+    ],
+    "milestone": {
+      "number": 1,
+      "title": "v0.1.0: Initial Documentation Setup",
+      "description": "Set up initial documentation framework and organization mapping for the SPlectrum ecosystem. This milestone establishes the foundational documentation structure needed for project navigation and understanding across all organizations (SPlectrum, InfoMetish, Sesameh, Carambah, bare-for-pear).",
+      "dueOn": null
+    },
+    "number": 3,
+    "state": "OPEN",
+    "title": "Create initial documentation for Sesameh organization and Claude-Swift integration",
+    "updatedAt": "2025-07-14T18:07:14Z",
+    "cached_at": "2025-07-14T18:08:46.971170Z"
+  },
+  "2": {
+    "createdAt": "2025-07-14T18:07:12Z",
+    "labels": [
+      {
+        "id": "LA_kwDOPLs-eM8AAAACFQq0LA",
+        "name": "cross-repository",
+        "description": "Tasks that involve cross-repository coordination",
+        "color": "0366d6"
+      },
+      {
+        "id": "LA_kwDOPLs-eM8AAAACFQq0xw",
+        "name": "inbox-task",
+        "description": "Tasks created from inbox processing",
+        "color": "7057ff"
+      }
+    ],
+    "milestone": {
+      "number": 1,
+      "title": "v0.1.0: Initial Documentation Setup",
+      "description": "Set up initial documentation framework and organization mapping for the SPlectrum ecosystem. This milestone establishes the foundational documentation structure needed for project navigation and understanding across all organizations (SPlectrum, InfoMetish, Sesameh, Carambah, bare-for-pear).",
+      "dueOn": null
+    },
+    "number": 2,
+    "state": "OPEN",
+    "title": "Create comprehensive documentation structure with organizational folders and placeholder files",
+    "updatedAt": "2025-07-14T18:07:12Z",
+    "cached_at": "2025-07-14T18:08:46.971173Z"
+  },
+  "1": {
+    "createdAt": "2025-07-14T18:06:43Z",
+    "labels": [
+      {
+        "id": "LA_kwDOPLs-eM8AAAACFQq0LA",
+        "name": "cross-repository",
+        "description": "Tasks that involve cross-repository coordination",
+        "color": "0366d6"
+      },
+      {
+        "id": "LA_kwDOPLs-eM8AAAACFQq0xw",
+        "name": "inbox-task",
+        "description": "Tasks created from inbox processing",
+        "color": "7057ff"
+      }
+    ],
+    "milestone": {
+      "number": 1,
+      "title": "v0.1.0: Initial Documentation Setup",
+      "description": "Set up initial documentation framework and organization mapping for the SPlectrum ecosystem. This milestone establishes the foundational documentation structure needed for project navigation and understanding across all organizations (SPlectrum, InfoMetish, Sesameh, Carambah, bare-for-pear).",
+      "dueOn": null
+    },
+    "number": 1,
+    "state": "OPEN",
+    "title": "Create comprehensive README.md with organization and repository mapping",
+    "updatedAt": "2025-07-14T18:06:43Z",
+    "cached_at": "2025-07-14T18:08:46.971176Z"
+  }
+}

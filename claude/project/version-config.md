@@ -3,16 +3,16 @@
 # Project Version Configuration
 
 ## Project Identity
-- **PROJECT_NAME**: [PROJECT_NAME]
+- **PROJECT_NAME**: SPlectrum
 - **ARTIFACT_NAME**: [PROJECT_NAME]-template
 - **INSTALL_PATH**: [INSTALL_PATH]
-- **REPOSITORY**: [REPOSITORY]
+- **REPOSITORY**: jules-tenbos/splectrum
 
 ## Version Strategy
-- **CURRENT_VERSION**: [CURRENT_VERSION]
+- **CURRENT_VERSION**: 0.0.0
 - **VERSION_PATTERN**: semantic (major.minor.patch)
 - **RELEASE_TYPE**: [RELEASE_TYPE]
-- **TARGET_VERSION**: [TARGET_VERSION]
+- **TARGET_VERSION**: 0.1.0
 
 ## Version Numbering Rules
 - **Major Version**: Template architecture changes, breaking compatibility

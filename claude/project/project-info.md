@@ -3,24 +3,24 @@
 # Project Information
 
 ## Project Overview
-- **PROJECT_NAME**: [PROJECT_NAME]
-- **PROJECT_TYPE**: [PROJECT_TYPE]
-- **DESCRIPTION**: [PROJECT_DESCRIPTION]
-- **PURPOSE**: [PROJECT_PURPOSE]
+- **PROJECT_NAME**: SPlectrum
+- **PROJECT_TYPE**: documentation
+- **DESCRIPTION**: Core execution environment and tool integration for P2P networks with DSL engine and streaming architecture
+- **PURPOSE**: Provide tools to enable P2P networks where distributed applications run in peer-to-peer environments, extending blockchain decentralization to general-purpose computing
 
 ## Repository Configuration
-- **REPOSITORY**: [REPOSITORY]
+- **REPOSITORY**: jules-tenbos/splectrum
 - **PRIMARY_BRANCH**: [PRIMARY_BRANCH]
 - **DEVELOPMENT_BRANCH**: [DEVELOPMENT_BRANCH]
 - **DEPLOYMENT_PATTERN**: [DEPLOYMENT_PATTERN]
 
 ## Architecture
-- **DEPLOYMENT_MODEL**: [DEPLOYMENT_MODEL]
+- **DEPLOYMENT_MODEL**: no deployment
 - **CONTENT_SEPARATION**: [CONTENT_SEPARATION]
 - **TEMPLATE_STRUCTURE**: [TEMPLATE_STRUCTURE]
 
 ## Development Team
-- **PRIMARY_MAINTAINER**: [PRIMARY_MAINTAINER]
+- **PRIMARY_MAINTAINER**: jules-tenbos
 - **DEVELOPMENT_APPROACH**: [DEVELOPMENT_APPROACH]
 - **COLLABORATION_MODEL**: [COLLABORATION_MODEL]
 
