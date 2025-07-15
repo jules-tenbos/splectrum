@@ -1,4 +1,34 @@
 {
+  "10": {
+    "createdAt": "2025-07-15T20:48:16Z",
+    "labels": [],
+    "milestone": null,
+    "number": 10,
+    "state": "OPEN",
+    "title": "Document JavaScript + AVRO Architecture Pattern for SPlectrum",
+    "updatedAt": "2025-07-15T20:48:16Z",
+    "cached_at": "2025-07-15T20:48:46.730449Z"
+  },
+  "9": {
+    "createdAt": "2025-07-15T20:47:09Z",
+    "labels": [],
+    "milestone": null,
+    "number": 9,
+    "state": "OPEN",
+    "title": "Document Happy Path + Deferred Exception Operational Pattern",
+    "updatedAt": "2025-07-15T20:47:09Z",
+    "cached_at": "2025-07-15T20:48:46.730647Z"
+  },
+  "8": {
+    "createdAt": "2025-07-15T20:46:21Z",
+    "labels": [],
+    "milestone": null,
+    "number": 8,
+    "state": "OPEN",
+    "title": "Document Dual-Mode Execution Architecture for Event-Driven Choreography",
+    "updatedAt": "2025-07-15T20:46:21Z",
+    "cached_at": "2025-07-15T20:48:46.730653Z"
+  },
   "7": {
     "createdAt": "2025-07-14T18:07:32Z",
     "labels": [
@@ -25,7 +55,7 @@
     "state": "OPEN",
     "title": "Create initial documentation for bare-for-pear organization",
     "updatedAt": "2025-07-14T18:07:32Z",
-    "cached_at": "2025-07-14T18:21:47.436672Z"
+    "cached_at": "2025-07-15T20:48:46.730656Z"
   },
   "6": {
     "createdAt": "2025-07-14T18:07:20Z",
@@ -53,7 +83,7 @@
     "state": "OPEN",
     "title": "Create initial documentation for Carambah organization",
     "updatedAt": "2025-07-14T18:07:20Z",
-    "cached_at": "2025-07-14T18:21:47.436759Z"
+    "cached_at": "2025-07-15T20:48:46.730658Z"
   },
   "5": {
     "createdAt": "2025-07-14T18:07:18Z",
@@ -81,7 +111,7 @@
     "state": "OPEN",
     "title": "Create initial documentation for InfoMetish organization",
     "updatedAt": "2025-07-14T18:07:18Z",
-    "cached_at": "2025-07-14T18:21:47.436767Z"
+    "cached_at": "2025-07-15T20:48:46.730661Z"
   },
   "4": {
     "createdAt": "2025-07-14T18:07:16Z",
@@ -109,7 +139,7 @@
     "state": "OPEN",
     "title": "Create initial documentation for SPlectrum organization",
     "updatedAt": "2025-07-14T18:07:16Z",
-    "cached_at": "2025-07-14T18:21:47.436770Z"
+    "cached_at": "2025-07-15T20:48:46.730663Z"
   },
   "3": {
     "createdAt": "2025-07-14T18:07:14Z",
@@ -137,7 +167,7 @@
     "state": "OPEN",
     "title": "Create initial documentation for Sesameh organization and Claude-Swift integration",
     "updatedAt": "2025-07-14T18:07:14Z",
-    "cached_at": "2025-07-14T18:21:47.436774Z"
+    "cached_at": "2025-07-15T20:48:46.730665Z"
   },
   "2": {
     "createdAt": "2025-07-14T18:07:12Z",
@@ -165,6 +195,6 @@
     "state": "OPEN",
     "title": "Create comprehensive documentation structure with organizational folders and placeholder files",
     "updatedAt": "2025-07-14T18:07:12Z",
-    "cached_at": "2025-07-14T18:21:47.436777Z"
+    "cached_at": "2025-07-15T20:48:46.730667Z"
   }
 }
