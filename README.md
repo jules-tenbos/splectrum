@@ -71,6 +71,13 @@ This repository serves as the **centralized documentation hub** for the entire S
 - Check the `docs/` directory for detailed technical documentation
 - Visit organization-specific documentation for deep dives
 
+## Repository Ways of Working
+
+For contributors and collaborators working within this repository:
+- [**Documentation Standards**](./claude/project/docs/documentation-standards.md) - Writing style and quality guidelines
+- [**Visual Documentation Guide**](./claude/project/docs/visual-documentation-guide.md) - Diagram standards and color palette
+- [**AI Collaboration Patterns**](./claude/project/docs/ai-collaboration-patterns.md) - Effective AI partnership patterns
+
 ---
 
 *Building the future of decentralized applications through collaborative AI and P2P networking.*
