@@ -20,9 +20,13 @@ Transform how distributed applications are built and deployed by:
 - **Domain-Specific Language (DSL)** engine at the core
 - **Unified API Architecture**: All tools and apps accessed through standardized SPlectrum APIs
 - **AVRO-based**: Apache AVRO provides the schema foundation for all data exchange
-- **Two API Categories**:
-  - **APIs**: Tool interfaces for system capabilities
-  - **Apps**: Application interfaces for business logic
+- **Unified Repository Architecture**:
+  - **APIs**: Tool interfaces for system capabilities (stateless wrappers around external tools)
+  - **Apps**: Application interfaces for business logic (stateful execution environment)
+  - **Modules**: Stateless packaging of apps - same structure as apps but deployed without state
+  - **Development Runtime**: Every app repository requires SPlectrum Engine (SE) as development runtime
+  - **Cross-App Services**: Common capabilities (testing, deployment, validation) provided through cross-app invocation
+  - **Key Insight**: Modules are equivalent to 'stateless apps' - same development template, same naming convention ([package]/[api]/[method]), enabling unified development with flexible deployment
 - **AI-Friendly Design**: Uniform language environment enables AI to easily reason about and generate functionality
 - **Stateless Execution**: Each request is independent with full audit trail
 - **Error Replay Capability**: Error packages can recreate exact execution context
@@ -60,6 +64,21 @@ Transform how distributed applications are built and deployed by:
 - **DSL-Powered**: Domain-specific abstractions for P2P application development
 - **Stateless & Auditable**: Full execution and data layer audit trails
 - **Functional Programming**: Immutable data enables pure functions and composability
+
+## Bootstrapping Strategy
+
+### Seed Repo Evolution
+- **Challenge**: SPlectrum needs SPlectrum to build SPlectrum (circular dependency)
+- **Solution**: Seed repo strategy - all-in-one prototypes evolving to component separation
+- **Journey**: hello-splectrum → spl0 (hand-coded) → spl1 (collaborative AI) → component extraction
+- **Current Status**: spl1 approaching readiness for Development SE extraction
+
+### Component Extraction Roadmap
+1. **Coordinated Extraction** - SPlectrum (Dev SE + apps) + InfoMetish (zip wrapper) from spl1
+2. **Multi-Target Expansion** - InfoMetish adds containers, P2P, OS installers
+3. **Bootstrap Validation** - Complete self-hosting capability for both organizations
+
+**Key Insight**: spl1 IS the bootstrap - contains seeds for both SPlectrum AND InfoMetish, working prototype that builds all separated components.
 
 ## Project Scope
 

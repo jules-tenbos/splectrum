@@ -4,12 +4,17 @@
 
 The project is structured around four core organizations, originally designed as a quartet, now extended:
 
+### Bootstrapping Context
+**Current State**: Working from spl1 seed repository (all-in-one prototype) approaching component extraction readiness.
+
+**Extraction Plan**: spl1 → Coordinated extraction (SPlectrum Dev SE + InfoMetish zip wrapper) → Multi-target expansion → Full bootstrap validation for both organizations
+
 ### SPlectrum - Execution Engine
 - **Purpose**: Core execution environment and tool integration
 - **Repository Types**: 
   - DSL execution engine components
   - API wrappers (prefixed with `api-`) around third-party tools
-  - DSL applications (prefixed with `app-`)
+  - DSL applications (prefixed with `app-`) - unified development for both stateful apps and stateless modules
   - Platform-agnostic runtime environment
   - Script execution and orchestration
 - **Key Characteristic**: Everything that exposes SPlectrum APIs lives here
@@ -77,7 +82,8 @@ The project is structured around four core organizations, originally designed as
 
 ### Repository Prefixes
 - `api-`: API wrappers around external tools (in SPlectrum) - includes AVRO schemas
-- `app-`: DSL applications (in SPlectrum) - includes AVRO schemas
+- `app-`: DSL applications (in SPlectrum) - unified template for both stateful apps and stateless modules - includes AVRO schemas
+- **Module Deployment**: Same `app-*` repositories can be packaged as stateless modules for code-area installation
 - Platform prefixes in InfoMetish (e.g., `k8s-`, `linux-`)
 - Solution prefixes in Carambah based on use case
 
