@@ -6,6 +6,7 @@ This file maintains project-specific workflow trigger keywords that extend the b
 
 | Keyword | File | Purpose | Trigger Context | Sesame Alias |
 |---------|------|---------|-----------------|--------------|
+| **OUTBOX** | `OUTBOX.md` | General outbox processing including external task distribution | Cross-repository task distribution, external task processing | `outbox sesame` |
 
 ## Future Project Keywords
 
@@ -19,6 +20,7 @@ Reserved for project-specific workflows when needed:
 Project-specific sesame triggers:
 
 ```
+outbox sesame → OUTBOX workflow (general outbox processing)
 ```
 
 ## Registry Inheritance
