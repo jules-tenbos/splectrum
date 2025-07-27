@@ -9,10 +9,10 @@
 - **REPOSITORY**: jules-tenbos/splectrum
 
 ## Version Strategy
-- **CURRENT_VERSION**: 0.0.0
+- **CURRENT_VERSION**: v0.0.0
 - **VERSION_PATTERN**: semantic (major.minor.patch)
 - **RELEASE_TYPE**: [RELEASE_TYPE]
-- **TARGET_VERSION**: 0.1.0
+- **TARGET_VERSION**: v0.1.0
 
 ## Version Numbering Rules
 - **Major Version**: Template architecture changes, breaking compatibility
