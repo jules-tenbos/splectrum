@@ -8,7 +8,7 @@
 Everything is designed to be extensible, composable, and interoperable. No vendor lock-in, no proprietary constraints. All functionality is exposed through clean, consistent APIs with formal interfaces.
 
 #### 📊 **AVRO Schema & RPC Foundation**
-Apache AVRO provides the schema foundation for all data exchange and RPC calls, ensuring type safety and compatibility across distributed systems.
+Apache AVRO provides the schema foundation for all data exchange and RPC calls, ensuring type safety and compatibility across distributed systems. AVRO's versatility extends to UI development through React components using AVRO for schema validation and RPC (library browsified), with opportunities to extend to mobile through PWA.
 
 #### 🚀 **Unified API Architecture: DSL → Schema → Transport**
 The DSL engine enables creation of custom APIs that naturally express domain requirements. These custom APIs receive the same first-class treatment as platform APIs - AVRO schema backing, validation, dual-mode access (formal + programmatic continuation syntax). AVRO RPC then opens all APIs (platform and custom) to a myriad of local and remote transport protocols as standard.
@@ -25,7 +25,7 @@ Built specifically to enable seamless human-AI collaboration through APIs as fir
 
 ## SPlectrum: Springboard to Decentralisation
 
-The AI collaborative platform will be used to explore how familiar distributed application patterns can be transformed into decentralised equivalents. The strengths of the SPlectrum platform leaves it well equipped to tackle the challenges of decentralisation.
+The AI collaborative platform will be used to explore how familiar distributed application patterns can be transformed into decentralised equivalents. The platform is built in JavaScript and will migrate to Bare runtime for P2P, so it can run on Pear P2P stack. The strengths of the SPlectrum platform leaves it well equipped to tackle the challenges of decentralisation.
 
 ### Target Explorations
 
