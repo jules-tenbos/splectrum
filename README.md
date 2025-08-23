@@ -1,39 +1,69 @@
-# SPlectrum Ecosystem
-
-## SPlectrum: AI-Friendly Application Development Platform
+# SPlectrum in a Nutshell
 
 **SPlectrum is an application development platform designed to make creating applications accessible through natural human-AI collaboration, built on a foundation of open architecture, well-documented APIs, and comprehensive quality frameworks.**
 
-#### 🔧 **Open Architecture & APIs as First-Class Citizens**
-Everything is designed to be extensible, composable, and interoperable. No vendor lock-in, no proprietary constraints. All functionality is exposed through clean, consistent APIs with formal interfaces.
+This overview is structured in four parts: the foundations, the platform logical components, the application focus domains, and the ecosystem organization. For detailed implementation status, see [Functional Components](./docs/implementation/functional-components.md).
 
-#### 📊 **AVRO Schema & RPC Foundation**
-Apache AVRO provides the schema foundation for all data exchange and RPC calls, ensuring type safety and compatibility across distributed systems. AVRO's versatility extends to UI development through React components using AVRO for schema validation and RPC (library browsified), with opportunities to extend to mobile through PWA.
+## SPlectrum Foundational Components
 
-#### 🚀 **Unified API Architecture: DSL → Schema → Transport**
-The DSL engine enables creation of custom APIs that naturally express domain requirements. These custom APIs receive the same first-class treatment as platform APIs - AVRO schema backing, validation, dual-mode access (formal + programmatic continuation syntax). AVRO RPC then opens all APIs (platform and custom) to a myriad of local and remote transport protocols as standard.
+The foundational layer provides the core infrastructure that enables the **strict boundaries, internal freedom** design philosophy throughout the platform. These components create the technical foundations for boundary enforcement (AVRO schemas, validation) and internal flexibility (JavaScript dynamic typing, JIT adaptability, streaming patterns).
 
-**The Power**: Create APIs that perfectly fit your domain, with enterprise-grade rigor and universal transport compatibility built-in.
+*Core infrastructure layers that other components depend on*
 
-#### ✅ **Strict Test-Driven Development (TDD)**
-Quality gates and testing define every workflow. TDD isn't just encouraged - it's built into the platform's DNA and essential for AI collaboration.
+| Area | Component | Current Status | Comments |
+|------|-----------|----------------|----------|
+| **JavaScript** | Node.js | ✅ Exists | Server-side JavaScript with JIT compilation and event loop concurrency |
+| | Browser JS | ✅ Exists | Client-side JavaScript enabling unified development across contexts |
+| | JIT Adaptability | ✅ Exists | Dynamic API generation and runtime modification capabilities |
+| | Data Interoperability | ✅ Exists | Natural JS Object ↔ JSON ↔ AVRO transformation |
+| **UI Components** | Terminal UI | ❌ Missing | CLI-based management interface |
+| | Browser UI | ❌ Missing | React/AVRO integration for web interface |
+| | Mobile/PWA | ❌ Missing | Progressive Web App capabilities |
+| **AVRO Schema and RPC** | Schema Definition | 🔧 Partial | Currently implemented with command-line-args |
+| | Validation | ❌ Missing | Input/output validation across platform |
+| | Documentation | 🔧 Partial | Auto-generated docs from schemas, currently implemented with command-line-args |
+| | RPC | ❌ Missing | AVRO RPC setup for cross-service communication |
+| **Streaming Native** | Kafka Compatible Data Record | ✅ Exists | Shared internal streaming data structure |
+| | Data Change Streaming | 🔧 Partial | Consume / publish immutable data change records |
+| **Functional Execution** | Execution Pipeline Record | ✅ Exists | Step to step functional, procedural step internal |
+| | Stateless Execution Engine | ✅ Exists | Execution requires no persistent state |
+| **Peer to Peer** | Bare Runtime | ❌ Missing | Minimal runtime, ideal for P2P applications |
+| | Pear Stack | ❌ Missing | Bare based P2P runtime with true P2P capabilities |
 
-#### 🤖 **AI-Friendly Collaborative Design**
-Built specifically to enable seamless human-AI collaboration through APIs as first-class citizens, strict TDD workflows, and uniform language environment. AI can easily reason about and generate distributed functionality using formal API contracts and fluent programmatic expressions. The further aim of the collaborative approach is to continuously increase AI autonomy and to ensure that the collaborative approach remains highly creative.
+## SPlectrum Platform Logical Components
 
----
+*Design approaches and methodologies that shape how the platform is built*
 
-## SPlectrum: Springboard to Decentralisation
+The platform applies a **strict boundaries, internal freedom** design philosophy enabled by the foundational architecture. **Strict boundaries** (AVRO validation, TDD contracts, schema enforcement) create **safe internal environments** with minimal constraints. Using this pattern single concern APIs are created that scale from **core APIs** at the fundamental level to **higher-level context APIs** while maintaining the same principle - each component has well-defined boundaries coupled with implementation freedom within those boundaries. This **DSL engine freedom of expression** approach is seen as an important stepping stone to meaningful AI autonomy.
 
-The AI collaborative platform will be used to explore how familiar distributed application patterns can be transformed into decentralised equivalents. The platform is built in JavaScript and will migrate to Bare runtime for P2P, so it can run on Pear P2P stack. The strengths of the SPlectrum platform leaves it well equipped to tackle the challenges of decentralisation.
+| Area | Component | Current Status | Comments |
+|-----------------|-----------|----------------|----------|
+| **API First-Class Citizen** | Item Help | ✅ Exists | Current help system operational, needs AVRO schema integration |
+| | API Discovery | ❌ Missing | Global `-h` flag with modules/apps list, API browsing capabilities |
+| | Advanced API Management | 🗺️ Roadmap | API search, API registry, API versioning |
+| **API Expression Contexts** | Scripting | ✅ Exists | Current implementation functional |
+| | Continuation Syntax | 🗺️ Roadmap | Language design for fluent workflow composition |
+| **TDC (Test Driven Creation)** | TDD Implementation | ✅ Exists | Uses functional execution audit for testing |
+| | Continuous Improvement | 🗺️ Roadmap | Defect handling within expectation framework |
+| | Test Driven Creation | 🗺️ Roadmap | Natural language, DSL engine, API creation |
+| **Collaborative AI** | Human-AI Creative Partnership | ✅ Exists | Shared context, human-in-the-loop design principles |
+| | Shared Ways of Working | ✅ Exists | Shared workflows and issue type defined workflows |
+| | Strict Workflow Creation | ✅ Exists | Workflows transferable to event driven choreography |
+| **Event Driven Choreography** | Strict Workflow Execution | 🗺️ Roadmap | Automated execution of defined workflow patterns **(deterministic, no AI required)** |
+| | AI Issue Resolution | 🗺️ Roadmap | Autonomous issue handling and resolution **(AI within strict test/validation boundaries)** |
+| **AI Autonomy** | Self-Directed Operation | 🗺️ Roadmap | Independent decision-making within validated boundaries **(creative problem definition and solution)** |
+| | Autonomous Validation | 🗺️ Roadmap | Self-checking and quality assurance capabilities **(self-defined success criteria)** |
+| | Creative Problem Solving | 🗺️ Roadmap | Novel solution generation within constraints **(true innovation and exploration)** |
 
-### Target Explorations
+## SPlectrum Application Focus
 
-**Private P2P Networks**: Family and private group applications where trust is inherent and privacy is paramount. Home automation systems that operate without external servers, shared photo libraries within families, private communications, and collaborative tools for small trusted groups. These networks prioritize privacy, control, and independence from external infrastructure.
+*Real-world application domains enabled by the platform capabilities*
 
-**Public P2P Networks**: Mass participation applications designed for open communities while maintaining decentralized infrastructure. Blockchain-integrated solutions, community platforms, content sharing networks, and collaborative applications that benefit from distributed participation without central control points.
-
-**Business P2P Networks**: Enterprise applications that create ringfenced networks for specific employee groups or business functions. Department-specific tools, project collaboration networks, and business applications that maintain organizational boundaries while eliminating central server dependencies and reducing infrastructure costs.
+| Domain | Description |
+|--------|-------------|
+| **Private P2P Networks** | Family and private group applications where trust is inherent and privacy is paramount. Home automation systems that operate without external servers, shared photo libraries within families, private communications, and collaborative tools for small trusted groups. These networks prioritize privacy, control, and independence from external infrastructure. |
+| **Public P2P Networks** | Mass participation applications designed for open communities while maintaining decentralized infrastructure. Blockchain-integrated solutions, community platforms, content sharing networks, and collaborative applications that benefit from distributed participation without central control points. |
+| **Business P2P Networks** | Enterprise applications that create ringfenced networks for specific employee groups or business functions. Department-specific tools, project collaboration networks, and business applications that maintain organizational boundaries while eliminating central server dependencies and reducing infrastructure costs. |
 
 ## Documentation, Organization Structure & Key Repositories
 
